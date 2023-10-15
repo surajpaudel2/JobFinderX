@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ubuntu:wght@400;500&family=Varela+Round&display=swap');
+
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+:root {
+  --nav-color: #FFFFFF;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem;
+  border: 1px solid black;
+}
+.company-logo img {
+  height: 5rem;
+  width: 10rem;
+}
+.menus ul {
+  list-style: none;
+}
+.menus ul li {
+  line-height: 8rem;
+}
+.menus li a{
+  text-decoration: none;
+
+}
+.menus ul, .user-personal-login-job-posting {
+  display: flex;
+  gap: 2rem;
+}
